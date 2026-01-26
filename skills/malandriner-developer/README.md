@@ -39,13 +39,13 @@ The five core principles from [Web Reactiva](https://webreactiva.com):
 ### Using npx (Recommended)
 
 ```bash
-npx skills add https://github.com/delineas/malandriner-agents --skill malandriner-developer
+npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill malandriner-developer
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/delineas/malandriner-agents.git
+git clone https://github.com/webreactiva-devs/malandriner-agents.git
 cp -r malandriner-agents/skills/malandriner-developer ~/.claude/skills/
 ```
 

@@ -29,15 +29,15 @@ These skills bring this philosophy to your AI coding assistants.
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| [malandriner-developer](skills/malandriner-developer/) | Mentorship and guidance following the Malandriner Manifesto philosophy. Human-centered code reviews, AI-assisted development, and team culture practices. | `npx skills add delineas/malandriner-agents/malandriner-developer` |
-| [junior-ai-mentor](skills/junior-ai-mentor/) | Practical guide for junior developers leveraging AI as a professional tool. Covers vibe coding, prompt patterns, and career growth. | `npx skills add delineas/malandriner-agents/junior-ai-mentor` |
+| [malandriner-developer](skills/malandriner-developer/) | Mentorship and guidance following the Malandriner Manifesto philosophy. Human-centered code reviews, AI-assisted development, and team culture practices. | `npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill malandriner-developer` |
+| [junior-ai-mentor](skills/junior-ai-mentor/) | Practical guide for junior developers leveraging AI as a professional tool. Covers vibe coding, prompt patterns, and career growth. | `npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill junior-ai-mentor` |
 
 ## Quick Start
 
 ### Install a Single Skill
 
 ```bash
-npx skills add https://github.com/delineas/malandriner-agents --skill malandriner-developer
+npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill malandriner-developer
 ```
 
 ### Manual Installation
@@ -45,7 +45,7 @@ npx skills add https://github.com/delineas/malandriner-agents --skill malandrine
 Clone the repository and copy the desired skill folder to your agent's skills directory:
 
 ```bash
-git clone https://github.com/delineas/malandriner-agents.git
+git clone https://github.com/webreactiva-devs/malandriner-agents.git
 cp -r malandriner-agents/skills/malandriner-developer ~/.claude/skills/
 ```
 

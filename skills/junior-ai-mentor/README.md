@@ -29,13 +29,13 @@ This skill transforms your AI coding assistant into a mentor specifically focuse
 ### Using npx (Recommended)
 
 ```bash
-npx skills add https://github.com/delineas/malandriner-agents --skill junior-ai-mentor
+npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill junior-ai-mentor
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/delineas/malandriner-agents.git
+git clone https://github.com/webreactiva-devs/malandriner-agents.git
 cp -r malandriner-agents/skills/junior-ai-mentor ~/.claude/skills/
 ```
 
