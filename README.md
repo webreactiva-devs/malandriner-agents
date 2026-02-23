@@ -59,11 +59,9 @@ malandriner-agents/
 └── skills/                   # All skills live here
     ├── malandriner-developer/  # Malandriner philosophy skill
     │   ├── SKILL.md            # Main skill instructions
-    │   ├── README.md           # Skill documentation
     │   └── AGENTS.md           # Compiled guidelines
     └── junior-ai-mentor/       # Junior AI mentorship skill
         ├── SKILL.md            # Main skill instructions
-        ├── README.md           # Skill documentation
         ├── AGENTS.md           # Compiled guidelines
         └── references/         # Detailed reference docs
             ├── tools-comparison.md
@@ -96,7 +94,6 @@ Instructions for the agent...
 ```
 
 3. (Optional) Add supporting files:
-   - `README.md` - Human-readable documentation
    - `AGENTS.md` - Compiled guidelines for agents
    - `references/` - Detailed reference documentation
 
