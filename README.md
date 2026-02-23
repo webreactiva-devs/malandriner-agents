@@ -31,6 +31,8 @@ These skills bring this philosophy to your AI coding assistants.
 |-------|-------------|---------|
 | [malandriner-developer](skills/malandriner-developer/) | Mentorship and guidance following the Malandriner Manifesto philosophy. Human-centered code reviews, AI-assisted development, and team culture practices. | `npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill malandriner-developer` |
 | [junior-ai-mentor](skills/junior-ai-mentor/) | Practical guide for junior developers leveraging AI as a professional tool. Covers vibe coding, prompt patterns, and career growth. | `npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill junior-ai-mentor` |
+| [build-your-path](skills/build-your-path/) | Transforms learning content into actionable Build-Do-Reflect iteration plans. Turns passive advice into concrete, buildable cycles over 4-8 weeks. | `npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill build-your-path` |
+| [create-challenges](skills/create-challenges/) | Transforms learning content into bite-sized, progressive challenges. Each challenge has 3-5 steps max and is completable in 1-3 hours. | `npx skills add https://github.com/webreactiva-devs/malandriner-agents --skill create-challenges` |
 
 ## Quick Start
 
@@ -57,15 +59,20 @@ malandriner-agents/
 ├── LICENSE                   # MIT License
 ├── .gitignore
 └── skills/                   # All skills live here
+    ├── README.md               # Skills index and comparison
     ├── malandriner-developer/  # Malandriner philosophy skill
     │   ├── SKILL.md            # Main skill instructions
     │   └── AGENTS.md           # Compiled guidelines
-    └── junior-ai-mentor/       # Junior AI mentorship skill
-        ├── SKILL.md            # Main skill instructions
-        ├── AGENTS.md           # Compiled guidelines
-        └── references/         # Detailed reference docs
-            ├── tools-comparison.md
-            └── prompt-patterns.md
+    ├── junior-ai-mentor/       # Junior AI mentorship skill
+    │   ├── SKILL.md            # Main skill instructions
+    │   ├── AGENTS.md           # Compiled guidelines
+    │   └── references/         # Detailed reference docs
+    │       ├── tools-comparison.md
+    │       └── prompt-patterns.md
+    ├── build-your-path/        # Learning-to-action planner
+    │   └── SKILL.md            # Main skill instructions
+    └── create-challenges/      # Bite-sized challenge creator
+        └── SKILL.md            # Main skill instructions
 ```
 
 ## Creating a New Skill
